@@ -2,4 +2,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: nameless-spring-4227
+      appname: nameless-springs-4227
