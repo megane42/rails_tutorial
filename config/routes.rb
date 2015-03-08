@@ -1,6 +1,8 @@
 RailsTutorial::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/help"
+  get "static_pages/about"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -41,7 +43,7 @@ RailsTutorial::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
